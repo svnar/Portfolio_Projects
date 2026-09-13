@@ -20,13 +20,13 @@ The objective was to understand:
 
 ## Tools & Technologies
 
-- **MySQL 8** — data cleaning, transformation and analytical tables
+- **MySQL 8** — data preparation and analytical modeling
 - **Power BI** — dashboard, DAX measures and interactive visualization
-- **SQL** — joins, aggregations, customer-level metrics and cohort preparation
+- **SQL** — joins, aggregations, window functions and cohort preparation
 - **RFM Analysis** — customer segmentation using Recency, Frequency and Monetary behavior
-- **Cohort Analysis** — first-purchase cohort and subsequent-month retention
+- **Cohort Analysis** — first-purchase cohorts and subsequent-month retention
 
-## Dashboard Pages
+## Dashboard
 
 ### 1. Executive Overview
 
@@ -45,6 +45,8 @@ Covers:
 - Customer value by RFM segment
 - Repeat rate by product category
 - Cohort retention heatmap
+
+**Power BI file:** [`dashboard/Ecommerce_Customer_Growth_Analytics.pbix`](dashboard/Ecommerce_Customer_Growth_Analytics.pbix)
 
 ## Key Results
 
@@ -105,7 +107,6 @@ Category-level repeat behavior varies considerably. Statistical testing found ca
    - Test category-specific lifecycle campaigns.
 
 5. **Improve post-delivery engagement**
-   - The first order is the critical conversion point for future retention.
    - Use delivery completion as a trigger for review requests, recommendations and second-purchase messaging.
 
 6. **Measure retention as a core growth KPI**
@@ -122,10 +123,25 @@ E-Commerce Customer Growth Analytics/
 ├── README.md
 ├── business-insights-and-recommendations.md
 ├── sql/
-│   └── analytical_model.sql
+│   ├── README.md
+│   ├── 01_analytical_queries.sql
+│   ├── 02_retention_rfm_cohort.sql
+│   └── 03_business_kpi_queries.sql
 └── dashboard/
     └── Ecommerce_Customer_Growth_Analytics.pbix
 ```
+
+## SQL Analysis
+
+The SQL layer documents the transformation from raw Olist order, payment, review, customer and product data into customer-level analytical datasets used by the dashboard.
+
+- [`01_analytical_queries.sql`](sql/01_analytical_queries.sql)
+- [`02_retention_rfm_cohort.sql`](sql/02_retention_rfm_cohort.sql)
+- [`03_business_kpi_queries.sql`](sql/03_business_kpi_queries.sql)
+
+## Business Insights & Recommendations
+
+Detailed findings, statistical evidence and recommended business actions are documented in [`business-insights-and-recommendations.md`](business-insights-and-recommendations.md).
 
 ## Dataset
 
