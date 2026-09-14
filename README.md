@@ -175,7 +175,7 @@ Portfolio_Projects/
 
 I am currently building my portfolio around **Data Analyst / Business Analyst roles**, with particular emphasis on SQL, Power BI, Python, customer analytics, business insights and data-driven decision making.
 
-More projects and analyses will be added as the portfolio grows.
+I will continue adding projects and analyses as the portfolio grows.
 
 ---
 
