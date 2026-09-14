@@ -10,7 +10,7 @@ My work combines:
 
 - **SQL / MySQL** — data preparation, joins, aggregations, analytical modeling and validation
 - **Power BI** — interactive dashboards, KPI reporting, DAX and business storytelling
-- **Python** — exploratory analysis, statistical testing and analytical validation
+- **Python** — exploratory analysis, statistical testing, predictive modeling and analytical validation
 - **Business Analysis** — customer behavior, growth, retention, revenue and operational insights
 
 I focus on explaining **what happened, why it matters and what a business could do next**, rather than only presenting charts.
@@ -53,7 +53,19 @@ The project analyzes:
 
 ---
 
-### 2. COVID-19 Analysis
+### 2. YuvaIntern – Logistics Data Analytics
+
+**Tools:** Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
+
+A four-week logistics analytics internship project covering the complete analytics workflow from problem definition and KPI planning to data preprocessing, exploratory analysis, visualization, predictive modeling and optimization considerations.
+
+The project focuses on delivery performance, late deliveries, transportation cost, shipping modes, distance, shipment volume and regional performance. Week 4 compares Linear Regression and Random Forest models for delivery-time prediction.
+
+**Project:** [`YuvaIntern – Logistics Data Analytics`](YuvaIntern%20-%20Logistics%20Data%20Analytics/)
+
+---
+
+### 3. COVID-19 Analysis
 
 **Project:** [`Covid19`](Covid19/)
 
@@ -61,7 +73,7 @@ An analytical project focused on exploring COVID-19 data and identifying trends 
 
 ---
 
-### 3. IPL Data Analysis
+### 4. IPL Data Analysis
 
 **Project:** [`IPL Data`](IPL%20Data/)
 
@@ -69,7 +81,7 @@ A sports analytics project exploring Indian Premier League data, trends and perf
 
 ---
 
-### 4. SQL & Data Analysis Exercises
+### 5. SQL & Data Analysis Exercises
 
 **Project:** [`Excercise`](Excercise/)
 
@@ -114,6 +126,7 @@ Business Insights & Recommendations
 - DAX measures
 - Power BI data modeling
 - Statistical testing
+- Predictive modeling
 - Data validation
 
 ### Business Skills
@@ -123,6 +136,7 @@ Business Insights & Recommendations
 - Customer value analysis
 - Segment prioritization
 - Trend analysis
+- Operational performance analysis
 - Translating analytical findings into business recommendations
 
 ---
@@ -143,6 +157,14 @@ Portfolio_Projects/
 │   └── dashboard/
 │       └── Ecommerce_Customer_Growth_Analytics.pbix
 │
+├── YuvaIntern - Logistics Data Analytics/
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── week-1/
+│   ├── week-2/
+│   ├── week-3/
+│   └── week-4/
+│
 ├── Covid19/
 ├── IPL Data/
 ├── Excercise/
@@ -151,7 +173,7 @@ Portfolio_Projects/
 
 ## Current Focus
 
-I am currently building my portfolio around **Data Analyst / Business Analyst roles**, with particular emphasis on SQL, Power BI, customer analytics, business insights and data-driven decision making.
+I am currently building my portfolio around **Data Analyst / Business Analyst roles**, with particular emphasis on SQL, Power BI, Python, customer analytics, business insights and data-driven decision making.
 
 More projects and analyses will be added as the portfolio grows.
 
